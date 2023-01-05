@@ -4,8 +4,99 @@
 }
 
 /* header and navigation styles */
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 
 }
+
+.text-primary {
+    color: crimson;
+}
+
+nav li {
+
+    list-style: none;
+    margin-left: 50px;
+
+
+}
+
+nav ul {
+
+    display: flex;
+    margin-left: 50px;
+
+    .btn-primary {
+        color: #FFFFFF;
+        height: 64px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 700;
+        border: 0;
+        padding: 18px 35px;
+        border: o;
+        background: #FFFFFF;
+bacground-position:bottom right, bottom left;
+    }
+.header{
+    background: salmon;
+    background-image: url('../images/image2.png'),
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+    /* banner style */
+    .banner {
+
+        margin: 0 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner-title {
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    .banner-sub-title {
+        font-weight: 600;
+        font-size: 45px;
+        margin-bottom: 20px;
+
+        .banner-description {
+            color: rgb(171, 33, 33);
+            font-size: 18px;
+            margin: bottom 30px;
+
+
+       /* aboyt section style */
+       main{
+        max-width: 1140px;
+        margin:0 auto;
+       }
+       .about{
+margin-top: 130px;
+background:#FFF8F3;
+border-radius: 10px
+padding:130px 150px;
+       }
+       .section-title{
+text-align:center;
+margin-bottom: 30px;
+
+       }
+       .section-description{
+color:blueviolet
+font-size:18px;
+margin-bottom:30px;
+       }
